@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="_BfWxnmn0xFR7Y4hnnBO" name="State Machine Diagram">
-        <mxGraphModel dx="1616" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="2041" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -85,8 +85,8 @@
                 <mxCell id="36" value="Áp dụng mã giảm giá" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="470" y="60" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="Gửi bill qua email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-115" y="540" width="120" height="30" as="geometry"/>
+                <mxCell id="38" value="Gửi bill qua email&lt;div&gt;Xác nhận đơn&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-125" y="530" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="Chờ giao hàng" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="660" width="120" height="60" as="geometry"/>
@@ -137,7 +137,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="50" value="[Thất bại]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="305" y="350" width="70" height="30" as="geometry"/>
+                    <mxGeometry x="255" y="370" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="[Thành công]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="30" y="370" width="90" height="30" as="geometry"/>
@@ -176,20 +176,23 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="70" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PgdKDfmIsr92nvsyvFpR-3" target="9">
+                <mxCell id="70" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgdKDfmIsr92nvsyvFpR-3" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="370" y="350" as="sourcePoint"/>
                         <mxPoint x="420" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="73" value="Đã xác nhận" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="73" value="Đã xác nhận" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="39">
+                <mxCell id="74" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="73" target="39" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="60" y="670" as="sourcePoint"/>
                         <mxPoint x="110" y="620" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="Roll back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="238" width="70" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
